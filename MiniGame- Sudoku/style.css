@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 209);
+    box-sizing: border-box;
+}
+
+.main-head{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#board{
+    width: 594px;
+    height: 594px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.fixed-box{
+    background-color: rgb(71, 71, 71);
+}
+
+.difficulty{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#errors{
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.number-entry{
+    width: 65px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.board-entry{
+    height: 64px;
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 157, 255);
+}
+
+.entry{
+    font-size: larger;
+    border: 1px solid cornflowerblue;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 2px 10px;
+    display: flex;
+    width: fit-content;
+}
+
+.main-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.entry:hover{
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: brown;
+}
+
+.selected-number{
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: brown;
+}
+
+#solve{
+    margin-left: auto;
+}
+
+#reset{
+    margin-left: auto;
+}
+
+#options{
+    width: 600px;
+    height: 55px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.wrong-ans{
+    color: red;
+}
+
+.thick-left{
+    border-left: 3px solid rgb(0, 157, 255);
+}
+
+.thick-up{
+    border-top: 3px solid rgb(0, 157, 255);
+}
